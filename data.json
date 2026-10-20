@@ -5,7 +5,7 @@
   "sourceStatus": "initial",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
-    {"id":"weizhi","name":"卫枝","order":24,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879043698","image":null,"sales":0,"salesVerified":false},
+    {"id":"weizhi","name":"卫枝","order":24,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879043698","image":null,"sales":1,"salesVerified":false},
     {"id":"yueqi","name":"越祈","order":2,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879027916","image":null,"sales":0,"salesVerified":false},
     {"id":"tianjingzhi","name":"田净植","order":3,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879021898","image":null,"sales":0,"salesVerified":false},
     {"id":"liuguiren","name":"刘贵人","order":4,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879000068","image":null,"sales":0,"salesVerified":false},
@@ -28,6 +28,6 @@
     {"id":"zhudi","name":"朱迪","order":21,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875921955","image":null,"sales":0,"salesVerified":false},
     {"id":"yumeiren","name":"虞美人","order":22,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875895489","image":null,"sales":0,"salesVerified":false},
     {"id":"qingshe","name":"青蛇","order":23,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875892791","image":null,"sales":0,"salesVerified":false},
-    {"id":"lingmiaomiao","name":"凌妙妙","order":1,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875859243","image":null,"sales":0,"salesVerified":false}
+    {"id":"lingmiaomiao","name":"凌妙妙","order":1,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875859243","image":null,"sales":10,"salesVerified":false}
   ]
 }
