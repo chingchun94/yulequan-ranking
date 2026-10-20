@@ -1,33 +1,225 @@
 {
   "eventName": "鱼了圈海选赛",
   "schemaVersion": 1,
-  "lastUpdated": null,
-  "sourceStatus": "initial",
+  "lastUpdated": "2026-10-20 12:47:23",
+  "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
-    {"id":"weizhi","name":"卫枝","order":24,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879043698","image":null,"sales":1,"salesVerified":false},
-    {"id":"yueqi","name":"越祈","order":2,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879027916","image":null,"sales":0,"salesVerified":false},
-    {"id":"tianjingzhi","name":"田净植","order":3,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879021898","image":null,"sales":0,"salesVerified":false},
-    {"id":"liuguiren","name":"刘贵人","order":4,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879000068","image":null,"sales":0,"salesVerified":false},
-    {"id":"chengqianyu","name":"程千语","order":5,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878988184","image":null,"sales":0,"salesVerified":false},
-    {"id":"chenchenchen","name":"陈晨晨","order":6,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878982282","image":null,"sales":0,"salesVerified":false},
-    {"id":"chuli","name":"初礼","order":7,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878959858","image":null,"sales":0,"salesVerified":false},
-    {"id":"tiansanqi","name":"田三七","order":8,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878952528","image":null,"sales":0,"salesVerified":false},
-    {"id":"gewen","name":"格温","order":9,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878931364","image":null,"sales":0,"salesVerified":false},
-    {"id":"lixiaoya","name":"李小雅","order":10,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878911006","image":null,"sales":0,"salesVerified":false},
-    {"id":"xiaoyi","name":"小艺","order":11,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878907114","image":null,"sales":0,"salesVerified":false},
-    {"id":"jiangmu","name":"姜暮","order":12,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878887284","image":null,"sales":0,"salesVerified":false},
-    {"id":"yunweishan","name":"云为衫","order":13,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875997919","image":null,"sales":0,"salesVerified":false},
-    {"id":"xiaohushi","name":"小护士","order":14,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875978065","image":null,"sales":0,"salesVerified":false},
-    {"id":"caiminmin","name":"蔡敏敏","order":15,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875978029","image":null,"sales":0,"salesVerified":false},
-    {"id":"linwanxing","name":"林晚星","order":16,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875969897","image":null,"sales":0,"salesVerified":false},
-    {"id":"hepan","name":"何盼","order":17,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875940317","image":null,"sales":0,"salesVerified":false},
-    {"id":"xiaolanhua","name":"小兰花","order":18,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875930499","image":null,"sales":0,"salesVerified":false},
-    {"id":"yunchu","name":"云初","order":19,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875926475","image":null,"sales":0,"salesVerified":false},
-    {"id":"liyifan","name":"李逸凡","order":20,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875922541","image":null,"sales":0,"salesVerified":false},
-    {"id":"zhudi","name":"朱迪","order":21,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875921955","image":null,"sales":0,"salesVerified":false},
-    {"id":"yumeiren","name":"虞美人","order":22,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875895489","image":null,"sales":0,"salesVerified":false},
-    {"id":"qingshe","name":"青蛇","order":23,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875892791","image":null,"sales":0,"salesVerified":false},
-    {"id":"lingmiaomiao","name":"凌妙妙","order":1,"url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875859243","image":null,"sales":10,"salesVerified":false}
+    {
+      "id": "lingmiaomiao",
+      "name": "凌妙妙",
+      "order": 1,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875859243",
+      "image": null,
+      "sales": 6050,
+      "salesVerified": true
+    },
+    {
+      "id": "yueqi",
+      "name": "越祈",
+      "order": 2,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879027916",
+      "image": null,
+      "sales": 1837,
+      "salesVerified": true
+    },
+    {
+      "id": "tianjingzhi",
+      "name": "田净植",
+      "order": 3,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879021898",
+      "image": null,
+      "sales": 222,
+      "salesVerified": true
+    },
+    {
+      "id": "liuguiren",
+      "name": "刘贵人",
+      "order": 4,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879000068",
+      "image": null,
+      "sales": 145,
+      "salesVerified": true
+    },
+    {
+      "id": "chengqianyu",
+      "name": "程千语",
+      "order": 5,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878988184",
+      "image": null,
+      "sales": 222,
+      "salesVerified": true
+    },
+    {
+      "id": "chenchenchen",
+      "name": "陈晨晨",
+      "order": 6,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878982282",
+      "image": null,
+      "sales": 187,
+      "salesVerified": true
+    },
+    {
+      "id": "chuli",
+      "name": "初礼",
+      "order": 7,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878959858",
+      "image": null,
+      "sales": 9418,
+      "salesVerified": true
+    },
+    {
+      "id": "tiansanqi",
+      "name": "田三七",
+      "order": 8,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878952528",
+      "image": null,
+      "sales": 1834,
+      "salesVerified": true
+    },
+    {
+      "id": "gewen",
+      "name": "格温",
+      "order": 9,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878931364",
+      "image": null,
+      "sales": 169,
+      "salesVerified": true
+    },
+    {
+      "id": "lixiaoya",
+      "name": "李小雅",
+      "order": 10,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878911006",
+      "image": null,
+      "sales": 99,
+      "salesVerified": true
+    },
+    {
+      "id": "xiaoyi",
+      "name": "小艺",
+      "order": 11,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878907114",
+      "image": null,
+      "sales": 221,
+      "salesVerified": true
+    },
+    {
+      "id": "jiangmu",
+      "name": "姜暮",
+      "order": 12,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878887284",
+      "image": null,
+      "sales": 4498,
+      "salesVerified": true
+    },
+    {
+      "id": "yunweishan",
+      "name": "云为衫",
+      "order": 13,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875997919",
+      "image": null,
+      "sales": 8597,
+      "salesVerified": true
+    },
+    {
+      "id": "xiaohushi",
+      "name": "小护士",
+      "order": 14,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875978065",
+      "image": null,
+      "sales": 127,
+      "salesVerified": true
+    },
+    {
+      "id": "caiminmin",
+      "name": "蔡敏敏",
+      "order": 15,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875978029",
+      "image": null,
+      "sales": 5221,
+      "salesVerified": true
+    },
+    {
+      "id": "linwanxing",
+      "name": "林晚星",
+      "order": 16,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875969898",
+      "image": null,
+      "sales": 0,
+      "salesVerified": true
+    },
+    {
+      "id": "hepan",
+      "name": "何盼",
+      "order": 17,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875940317",
+      "image": null,
+      "sales": 643,
+      "salesVerified": true
+    },
+    {
+      "id": "xiaolanhua",
+      "name": "小兰花",
+      "order": 18,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875930499",
+      "image": null,
+      "sales": 13634,
+      "salesVerified": true
+    },
+    {
+      "id": "yunchu",
+      "name": "云初",
+      "order": 19,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875926475",
+      "image": null,
+      "sales": 1745,
+      "salesVerified": true
+    },
+    {
+      "id": "liyifan",
+      "name": "李逸凡",
+      "order": 20,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875922541",
+      "image": null,
+      "sales": 275,
+      "salesVerified": true
+    },
+    {
+      "id": "zhudi",
+      "name": "朱迪",
+      "order": 21,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875921955",
+      "image": null,
+      "sales": 115,
+      "salesVerified": true
+    },
+    {
+      "id": "yumeiren",
+      "name": "虞美人",
+      "order": 22,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875895489",
+      "image": null,
+      "sales": 2093,
+      "salesVerified": true
+    },
+    {
+      "id": "qingshe",
+      "name": "青蛇",
+      "order": 23,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875892791",
+      "image": null,
+      "sales": 102,
+      "salesVerified": true
+    },
+    {
+      "id": "weizhi",
+      "name": "卫枝",
+      "order": 24,
+      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879043698",
+      "image": null,
+      "sales": 2777,
+      "salesVerified": true
+    }
   ]
 }
