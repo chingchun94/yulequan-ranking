@@ -1,7 +1,7 @@
 {
   "eventName": "鱼了圈海选赛",
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-20 11:26:15",
+  "lastUpdated": "2026-10-20 11:31:24",
   "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
@@ -11,7 +11,7 @@
       "order": 1,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875859243",
       "image": "profilePicture/凌妙妙.jpg",
-      "sales": 15853,
+      "sales": 15931,
       "salesVerified": true
     },
     {
@@ -29,7 +29,7 @@
       "order": 3,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879021898",
       "image": "profilePicture/田净植.jpg",
-      "sales": 487,
+      "sales": 488,
       "salesVerified": true
     },
     {
@@ -101,7 +101,7 @@
       "order": 11,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878907114",
       "image": "profilePicture/小艺.jpg",
-      "sales": 438,
+      "sales": 439,
       "salesVerified": true
     },
     {
@@ -200,7 +200,7 @@
       "order": 22,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875895489",
       "image": "profilePicture/虞美人.jpg",
-      "sales": 5476,
+      "sales": 5490,
       "salesVerified": true
     },
     {
