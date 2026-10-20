@@ -32,6 +32,11 @@ function render() {
   const filtered = characters.filter((character) => safeText(character.name).toLowerCase().includes(query.toLowerCase()));
   document.querySelector('#character-count').textContent = characters.length;
   document.querySelector('#last-updated').textContent = formatTime(currentData.lastUpdated);
+  const totalVotes = characters.reduce((total, character) => {
+    const votes = Number(character.sales);
+    return total + (Number.isFinite(votes) && votes > 0 ? votes : 0);
+  }, 0);
+  document.querySelector('#total-votes').textContent = totalVotes.toLocaleString('zh-CN');
   ranking.replaceChildren();
   for (const [index, character] of filtered.entries()) {
     const card = document.createElement('article');
