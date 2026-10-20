@@ -21,9 +21,6 @@ function render() {
   const filtered = characters.filter((character) => safeText(character.name).toLowerCase().includes(query.toLowerCase()));
   document.querySelector('#character-count').textContent = characters.length;
   document.querySelector('#last-updated').textContent = formatTime(currentData.lastUpdated);
-  const verified = characters.some((character) => character.salesVerified);
-  document.querySelector('#data-status').textContent = verified ? '已接入有效销量数据' : '初始占位数据';
-  document.querySelector('#data-status').className = verified ? 'verified-tag' : '';
   ranking.replaceChildren();
   for (const [index, character] of filtered.entries()) {
     const card = document.createElement('article');
@@ -51,10 +48,7 @@ function render() {
     const count = document.createElement('strong');
     count.textContent = Number(character.sales).toLocaleString('zh-CN');
     sales.append(count, document.createTextNode('票数'));
-    const tag = document.createElement('span');
-    tag.className = `placeholder-tag${character.salesVerified ? ' verified-tag' : ''}`;
-    tag.textContent = character.salesVerified ? '已核验' : '初始占位';
-    info.append(name, sales, tag);
+    info.append(name, sales);
     const link = document.createElement('a');
     link.className = 'card-link';
     link.href = character.url;
