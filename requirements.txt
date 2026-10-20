@@ -1,0 +1,2 @@
+# requests is used for requests to the authorized JSON provider.
+requests>=2.32,<3
