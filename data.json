@@ -1,7 +1,7 @@
 {
   "eventName": "鱼了圈海选赛",
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-20 10:36:14",
+  "lastUpdated": "2026-10-20 10:41:21",
   "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
@@ -155,7 +155,7 @@
       "order": 17,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875940317",
       "image": "profilePicture/何盼.jpg",
-      "sales": 1335,
+      "sales": 1337,
       "salesVerified": true
     },
     {
