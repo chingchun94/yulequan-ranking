@@ -9,9 +9,20 @@ const safeText = (value) => String(value ?? '');
 
 function formatTime(value) {
   if (!value) return '尚未更新';
-  const date = new Date(value);
+  const timestamp = String(value).trim();
+  // GitHub Actions runners use UTC; interpret legacy timestamps without an
+  // explicit offset as UTC so they display correctly in China time.
+  const hasTimezone = /(?:Z|[+-]\d{2}:?\d{2})$/i.test(timestamp);
+  const normalizedTimestamp = hasTimezone
+    ? timestamp
+    : `${timestamp.replace(' ', 'T')}Z`;
+  const date = new Date(normalizedTimestamp);
   if (Number.isNaN(date.getTime())) return '尚未更新';
-  return new Intl.DateTimeFormat('zh-CN', { dateStyle: 'medium', timeStyle: 'short' }).format(date);
+  return new Intl.DateTimeFormat('zh-CN', {
+    dateStyle: 'medium',
+    timeStyle: 'short',
+    timeZone: 'Asia/Shanghai',
+  }).format(date);
 }
 
 function render() {
