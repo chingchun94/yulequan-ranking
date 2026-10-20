@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="鱼了圈海选赛角色人气榜，销量数据定时更新。">
+  <title>鱼了圈海选赛</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">FAN RANKING · LIVE BOARD</p>
+        <h1>鱼了圈海选赛</h1>
+        <p class="subtitle">角色人气榜 · 数据定时更新</p>
+        <div class="event-details" aria-label="赛程信息">
+          <span class="event-chip event-stage">海选赛</span>
+          <span class="event-chip">24 进 8</span>
+          <span class="event-chip">10.20 — 10.23</span>
+        </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true">鱼</div>
+    </header>
+
+    <section class="summary" aria-label="榜单概况">
+      <div class="summary-item"><span class="summary-label">参赛角色</span><strong id="character-count">—</strong></div>
+      <div class="summary-item"><span class="summary-label">最后成功更新</span><strong id="last-updated">尚未更新</strong></div>
+      <div class="summary-item status-item"><span class="summary-label">数据状态</span><strong id="data-status">初始占位数据</strong></div>
+    </section>
+
+    <section class="toolbar" aria-label="筛选角色">
+      <label class="search-box"><span class="sr-only">搜索角色</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索角色名称" autocomplete="off"></label>
+      <p id="refresh-status" class="refresh-status" role="status" aria-live="polite">正在加载榜单…</p>
+    </section>
+
+    <section id="ranking" class="ranking-grid" aria-label="角色人气榜" aria-live="polite"></section>
+    <p id="empty-state" class="empty-state" hidden>没有找到匹配的角色。</p>
+    <footer><span>数据每 30 秒检查一次 · 自动采集约每 30 分钟运行</span><span>票数以已配置的数据来源为准</span></footer>
+  </main>
+</body>
+</html>
