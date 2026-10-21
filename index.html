@@ -7,7 +7,7 @@
   <meta name="description" content="鱼了圈海选赛角色人气榜，销量数据定时更新。">
   <title>鱼了圈海选赛</title>
   <link rel="stylesheet" href="style.css?v=2">
-  <script src="app.js" defer></script>
+  <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <main class="page-shell">
@@ -40,6 +40,23 @@
 
     <section id="ranking" class="ranking-grid" aria-label="角色人气榜" aria-live="polite"></section>
     <p id="empty-state" class="empty-state" hidden>没有找到匹配的角色。</p>
+    <section class="event-links-section" aria-labelledby="event-links-title">
+      <div class="event-links-heading">
+        <h2 id="event-links-title">云包场相关</h2>
+        <p>商品入口与活动详情</p>
+      </div>
+      <nav class="event-links" aria-label="云包场商品与详情">
+        <a class="event-link" href="https://shop1675868235.v.weidian.com/item.html?itemID=7877394146&spider_token=0457" target="_blank" rel="noopener noreferrer">
+          <span class="event-link-label">微店商品</span><strong>无礼包版</strong><span class="event-link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="event-link" href="https://shop1675868235.v.weidian.com/item.html?itemID=7874348307&spider_token=eb60" target="_blank" rel="noopener noreferrer">
+          <span class="event-link-label">微店商品</span><strong>礼包版</strong><span class="event-link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="event-link event-link-detail" href="https://weibo.com/3981809522/Rn4lAbFkq" target="_blank" rel="noopener noreferrer">
+          <span class="event-link-label">云包场详情</span><strong>拍1发7 · 鱼头星星百宝箱</strong><span class="event-link-arrow" aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </section>
     <footer><span>数据每 30 秒检查一次 · 自动采集约每 30 分钟运行</span><span>票数以已配置的数据来源为准</span></footer>
   </main>
 </body>
