@@ -1,7 +1,7 @@
 {
   "eventName": "鱼了圈海选赛",
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-21 04:41:17",
+  "lastUpdated": "2026-10-21 04:46:19",
   "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
@@ -11,7 +11,7 @@
       "order": 1,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875859243",
       "image": "profilePicture/凌妙妙.jpg",
-      "sales": 18545,
+      "sales": 18553,
       "salesVerified": true
     },
     {
@@ -29,7 +29,7 @@
       "order": 3,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879021898",
       "image": "profilePicture/田净植.jpg",
-      "sales": 525,
+      "sales": 526,
       "salesVerified": true
     },
     {
@@ -65,7 +65,7 @@
       "order": 7,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878959858",
       "image": "profilePicture/初礼.jpg",
-      "sales": 27416,
+      "sales": 27443,
       "salesVerified": true
     },
     {
@@ -74,7 +74,7 @@
       "order": 8,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878952528",
       "image": "profilePicture/田三七.jpg",
-      "sales": 6254,
+      "sales": 6263,
       "salesVerified": true
     },
     {
@@ -110,7 +110,7 @@
       "order": 12,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7878887284",
       "image": "profilePicture/姜暮.jpg",
-      "sales": 14064,
+      "sales": 14066,
       "salesVerified": true
     },
     {
@@ -119,7 +119,7 @@
       "order": 13,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875997919",
       "image": "profilePicture/云为衫.jpg",
-      "sales": 24694,
+      "sales": 24718,
       "salesVerified": true
     },
     {
@@ -137,7 +137,7 @@
       "order": 15,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875978029",
       "image": "profilePicture/蔡敏敏.jpg",
-      "sales": 14531,
+      "sales": 14598,
       "salesVerified": true
     },
     {
@@ -155,7 +155,7 @@
       "order": 17,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875940317",
       "image": "profilePicture/何盼.jpg",
-      "sales": 1513,
+      "sales": 1514,
       "salesVerified": true
     },
     {
@@ -164,7 +164,7 @@
       "order": 18,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875930499",
       "image": "profilePicture/小兰花.jpg",
-      "sales": 35353,
+      "sales": 35381,
       "salesVerified": true
     },
     {
@@ -173,7 +173,7 @@
       "order": 19,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875926475",
       "image": "profilePicture/云初.jpg",
-      "sales": 6890,
+      "sales": 6891,
       "salesVerified": true
     },
     {
@@ -200,7 +200,7 @@
       "order": 22,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7875895489",
       "image": "profilePicture/虞美人.jpg",
-      "sales": 10764,
+      "sales": 10847,
       "salesVerified": true
     },
     {
@@ -218,7 +218,7 @@
       "order": 24,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7879043698",
       "image": "profilePicture/卫枝.jpg",
-      "sales": 10775,
+      "sales": 10783,
       "salesVerified": true
     }
   ]
