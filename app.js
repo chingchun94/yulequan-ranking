@@ -15,13 +15,13 @@ function formatTime(value) {
   const hasTimezone = /(?:Z|[+-]\d{2}:?\d{2})$/i.test(timestamp);
   const normalizedTimestamp = hasTimezone
     ? timestamp
-    : `${timestamp.replace(' ', 'T')}Z`;
+    : `${timestamp.replace(' ', 'T')}+08:00`;
   const date = new Date(normalizedTimestamp);
   if (Number.isNaN(date.getTime())) return '尚未更新';
   return new Intl.DateTimeFormat('zh-CN', {
     dateStyle: 'medium',
     timeStyle: 'short',
-    timeZone: 'Asia/Shanghai',
+    timeZone: 'Asia/Kuala_Lumpur',
   }).format(date);
 }
 
