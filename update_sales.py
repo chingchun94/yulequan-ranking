@@ -22,6 +22,10 @@ import re
 import json
 import time
 from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 DATA_FILE = ROOT / "data.json"
@@ -34,30 +38,14 @@ def log(message: str) -> None:
 
 # 1. 初始数据列表
 characters_data = [
-    {"id":"weizhi","name":"卫枝","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879043698"},
-    {"id":"yueqi","name":"越祈","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879027916"},
-    {"id":"tianjingzhi","name":"田净植","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879021898"},
-    {"id":"liuguiren","name":"刘贵人","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7879000068"},
-    {"id":"chengqianyu","name":"程千语","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878988184"},
-    {"id":"chenchenchen","name":"陈晨晨","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878982282"},
-    {"id":"chuli","name":"初礼","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878959858"},
-    {"id":"tiansanqi","name":"田三七","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878952528"},
-    {"id":"gewen","name":"格温","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878931364"},
-    {"id":"lixiaoya","name":"李小雅","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878911006"},
-    {"id":"xiaoyi","name":"小艺","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878907114"},
-    {"id":"jiangmu","name":"姜暮","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7878887284"},
-    {"id":"yunweishan","name":"云为衫","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875997919"},
-    {"id":"xiaohushi","name":"小护士","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875978065"},
-    {"id":"caiminmin","name":"蔡敏敏","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875978029"},
-    {"id":"linwanxing","name":"林晚星","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875969897"},
-    {"id":"hepan","name":"何盼","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875940317"},
-    {"id":"xiaolanhua","name":"小兰花","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875930499"},
-    {"id":"yunchu","name":"云初","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875926475"},
-    {"id":"liyifan","name":"李逸凡","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875922541"},
-    {"id":"zhudi","name":"朱迪","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875921955"},
-    {"id":"yumeiren","name":"虞美人","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875895489"},
-    {"id":"qingshe","name":"青蛇","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875892791"},
-    {"id":"lingmiaomiao","name":"凌妙妙","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7875859243"}
+    {"id":"weizhi","name":"卫枝","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882013126"},
+    {"id":"chuli","name":"初礼","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7881987582"},
+    {"id":"tiansanqi","name":"田三七","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882038552"},
+    {"id":"yunweishan","name":"云为衫","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7881985242"},
+    {"id":"caiminmin","name":"蔡敏敏","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882036608"},
+    {"id":"linwanxing","name":"林晚星","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882024882"},
+    {"id":"xiaolanhua","name":"小兰花","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7881927436"},
+    {"id":"lingmiaomiao","name":"凌妙妙","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882101684"}
 ]
 
 def fetch_and_save():
@@ -91,7 +79,7 @@ def fetch_and_save():
             print(f"报错: {str(e)}")
         
         # 间隔 1.5 秒
-        time.sleep(1.5)
+        #time.sleep(1.5)
 
     # 按 data.json 现有 schema 补全字段，并保留原有排序、销量和图片信息。
     with DATA_FILE.open("r", encoding="utf-8") as stream:
@@ -117,10 +105,12 @@ def fetch_and_save():
     normalized_characters.sort(key=lambda character: character["order"])
 
     # 构造与 data.json 一致的顶层格式。
+    CST = timezone(timedelta(hours=8))  # 固定大陆时间 UTC+8
     final_output = {
         "eventName": existing_data.get("eventName", "鱼了圈海选赛"),
         "schemaVersion": existing_data.get("schemaVersion", 1),
-        "lastUpdated": datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S"),
+        #"lastUpdated": datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S"),
+        "lastUpdated": datetime.now(CST).strftime("%Y-%m-%d %H:%M:%S"),
         "sourceStatus": "verified" if all(item["salesVerified"] for item in normalized_characters) else "partial",
         "sourceNote": existing_data.get("sourceNote", "销量数据来源状态以各角色的 salesVerified 字段为准。"),
         "characters": normalized_characters,
@@ -151,7 +141,7 @@ def fetch_provider(url: str) -> dict:
 def parse_sales_value(value: object) -> int | None:
     """Parse an authorized provider value into a nonnegative vote count.
 
-    Accepts an integer, a soldText string (for example ``"已售 1,234 件"``),
+    Accepts an integer, a soldText string (for example ``"Sold 1,234 件"``),
     or an object containing a ``soldText`` field. This function only parses
     content already supplied by the authorized provider; it does not fetch pages.
     """
