@@ -1,7 +1,7 @@
 {
   "eventName": "鱼了圈晋级赛",
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-24 21:33:10",
+  "lastUpdated": "2026-10-24 21:33:25",
   "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
@@ -11,7 +11,7 @@
       "order": 1,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882024882",
       "image": "profilePicture/林晚星.jpg",
-      "sales": 9418,
+      "sales": 9419,
       "salesVerified": true
     },
     {
@@ -20,7 +20,7 @@
       "order": 2,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882038552",
       "image": "profilePicture/田三七.jpg",
-      "sales": 1860,
+      "sales": 1861,
       "salesVerified": true
     },
     {
@@ -38,7 +38,7 @@
       "order": 4,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881987582",
       "image": "profilePicture/初礼.jpg",
-      "sales": 6249,
+      "sales": 6250,
       "salesVerified": true
     },
     {
@@ -47,7 +47,7 @@
       "order": 5,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881927436",
       "image": "profilePicture/小兰花.jpg",
-      "sales": 9989,
+      "sales": 10038,
       "salesVerified": true
     },
     {
@@ -56,7 +56,7 @@
       "order": 6,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881985242",
       "image": "profilePicture/云为衫.jpg",
-      "sales": 18495,
+      "sales": 18496,
       "salesVerified": true
     },
     {
@@ -65,7 +65,7 @@
       "order": 7,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882101684",
       "image": "profilePicture/凌妙妙.jpg",
-      "sales": 13031,
+      "sales": 13032,
       "salesVerified": true
     },
     {
@@ -74,7 +74,7 @@
       "order": 8,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882036608",
       "image": "profilePicture/蔡敏敏.jpg",
-      "sales": 753,
+      "sales": 754,
       "salesVerified": true
     }
   ]
