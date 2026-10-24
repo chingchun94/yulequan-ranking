@@ -1,7 +1,7 @@
 {
   "eventName": "鱼了圈晋级赛",
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-24 20:21:09",
+  "lastUpdated": "2026-10-24 20:21:23",
   "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
@@ -29,7 +29,7 @@
       "order": 3,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882013126",
       "image": "profilePicture/卫枝.jpg",
-      "sales": 465,
+      "sales": 475,
       "salesVerified": true
     },
     {
@@ -38,7 +38,7 @@
       "order": 4,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881987582",
       "image": "profilePicture/初礼.jpg",
-      "sales": 4957,
+      "sales": 4967,
       "salesVerified": true
     },
     {
