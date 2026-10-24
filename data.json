@@ -1,7 +1,7 @@
 {
   "eventName": "鱼了圈晋级赛",
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-24 17:28:46",
+  "lastUpdated": "2026-10-24 17:29:01",
   "sourceStatus": "verified",
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
@@ -11,7 +11,7 @@
       "order": 1,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882024882",
       "image": "profilePicture/林晚星.jpg",
-      "sales": 7647,
+      "sales": 7699,
       "salesVerified": true
     },
     {
@@ -38,7 +38,7 @@
       "order": 4,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881987582",
       "image": "profilePicture/初礼.jpg",
-      "sales": 2970,
+      "sales": 2975,
       "salesVerified": true
     },
     {
