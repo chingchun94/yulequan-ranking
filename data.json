@@ -6,75 +6,39 @@
   "sourceNote": "sales=0 是活动初始占位值，不代表已核实的微店销量。接入获得授权且 schema 已核验的数据源后再更新。",
   "characters": [
     {
-      "id": "linwanxing",
-      "name": "林晚星",
-      "order": 1,
-      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882024882",
-      "image": "profilePicture/林晚星.jpg",
-      "sales": 13092,
-      "salesVerified": true
-    },
-    {
-      "id": "tiansanqi",
-      "name": "田三七",
-      "order": 2,
-      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882038552",
-      "image": "profilePicture/田三七.jpg",
-      "sales": 8794,
-      "salesVerified": true
-    },
-    {
-      "id": "weizhi",
-      "name": "卫枝",
-      "order": 3,
-      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882013126",
-      "image": "profilePicture/卫枝.jpg",
-      "sales": 4031,
-      "salesVerified": true
-    },
-    {
       "id": "chuli",
       "name": "初礼",
       "order": 4,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881987582",
       "image": "profilePicture/初礼.jpg",
-      "sales": 36125,
+      "sales": 0,
       "salesVerified": true
     },
     {
       "id": "xiaolanhua",
       "name": "小兰花",
-      "order": 5,
+      "order": 1,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881927436",
       "image": "profilePicture/小兰花.jpg",
-      "sales": 64714,
+      "sales": 0,
       "salesVerified": true
     },
     {
       "id": "yunweishan",
       "name": "云为衫",
-      "order": 6,
+      "order": 2,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7881985242",
       "image": "profilePicture/云为衫.jpg",
-      "sales": 56467,
+      "sales": 0,
       "salesVerified": true
     },
     {
       "id": "lingmiaomiao",
       "name": "凌妙妙",
-      "order": 7,
+      "order": 3,
       "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882101684",
       "image": "profilePicture/凌妙妙.jpg",
-      "sales": 49531,
-      "salesVerified": true
-    },
-    {
-      "id": "caiminmin",
-      "name": "蔡敏敏",
-      "order": 8,
-      "url": "https://shop1675868235.v.weidian.com/item.html?itemID=7882036608",
-      "image": "profilePicture/蔡敏敏.jpg",
-      "sales": 1852,
+      "sales": 0,
       "salesVerified": true
     }
   ]
