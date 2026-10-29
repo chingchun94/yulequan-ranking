@@ -38,14 +38,10 @@ def log(message: str) -> None:
 
 # 1. 初始数据列表
 characters_data = [
-    {"id":"weizhi","name":"卫枝","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882013126"},
-    {"id":"chuli","name":"初礼","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7881987582"},
-    {"id":"tiansanqi","name":"田三七","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882038552"},
-    {"id":"yunweishan","name":"云为衫","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7881985242"},
-    {"id":"caiminmin","name":"蔡敏敏","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882036608"},
-    {"id":"linwanxing","name":"林晚星","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882024882"},
-    {"id":"xiaolanhua","name":"小兰花","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7881927436"},
-    {"id":"lingmiaomiao","name":"凌妙妙","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882101684"}
+    {"id":"chuli","name":"初礼","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882155887"},
+    {"id":"yunweishan","name":"云为衫","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7885197834"},
+    {"id":"xiaolanhua","name":"小兰花","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7882114749"},
+    {"id":"lingmiaomiao","name":"凌妙妙","url":"https://shop1675868235.v.weidian.com/item.html?itemID=7885186426"}
 ]
 
 def fetch_and_save():
